@@ -1,0 +1,28 @@
+========================================================
+[VERSION / SAVE NOTES]
+========================================================
+
+System: Windows 10 - x64
+
+World generated using LNP r3 - DF 0.47.04 - DFHack r1.
+
+Save migrated to LNP r6 - DF 0.47.04 - DFHack r2.
+
+125 Year History.
+
+Just over 1 Year of playtime, now Year 126 @ 49 Dwarves.
+
+---------
+Raw Edits
+---------
+
+Black Bear:
+- Added [TRAINABLE] token post-generation.
+
+Cougar:
+- Added [TRAINABLE] token post-genertation.
+
+Great Horned Owl
+- Added [HUNTS_VERMIN] token post-generation.
+- Added [DIVE_HUNTS_VERMIN] token post-generation.
+--------------------------------------------------------

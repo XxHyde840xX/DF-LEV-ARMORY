@@ -1,0 +1,585 @@
+item_weapon_LA
+
+[OBJECT:ITEM]
+
+=======
+{WS01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_BASTARD_LA]
+[NAME:bastard sword:bastard swords] Who's the bastard that decided dwarves couldn't use two-handed swords? Lemme at 'im!
+[SIZE:1100]
+[SKILL:SWORD]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[MATERIAL_SIZE:5]
+[ATTACK:EDGE:20500:4250:slash:slashes:blade:1250]
+    [ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:25:6000:stab:stabs:tip:1250]
+    [ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:20500:4250:slap:slaps:flat:1250:
+    [ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:60:600:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+
+=======
+{WS02}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_RAPIER_LA] I'm hoping the multi-attack flag will allow dual-wielding with the Main-Gauche.
+[NAME:rapier:rapiers] Naturally, you must expect me to attack with Capo-Ferro!
+[SIZE:625]
+[SKILL:SWORD]
+[TWO_HANDED:35000]
+[MINIMUM_SIZE:32500]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:6250:1000:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:EDGE:10:3750:stab:stabs:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]	
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:10:3750:thrust:thrusts:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:6250:100:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:45:450:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WS03}
+=======
+
+[ITEM_WEAPON:ITEM_WEAPON_SWORD_FLAMBERGE_LA] Hoping for the same result as with the Rapier.
+[NAME:flamberge:flamberges] Naturally, but I find that Thibault cancels Capo-Ferro, don't you?
+[SIZE:675]
+[SKILL:SWORD]
+[TWO_HANDED:35000]
+[MINIMUM_SIZE:32500]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:6750:1000:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:EDGE:12:3750:stab:stabs:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:12:3750:thrust:thrusts:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:6750:100:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:45:450:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	
+=======
+{WS04}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_ESTOC_LA] Again, hoping for same result as the Rapier and Flamberge.
+[NAME:estoc:estocs] Unless the enemy hasn't studied his Agrippa, which I have!
+[SIZE:725]
+[SKILL:SWORD]
+[TWO_HANDED:52500]
+[MINIMUM_SIZE:37500]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:7000:1000:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:15:4000:stab:stabs:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:15:4000:thrust:thrusts:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:7000:100:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:50:500:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WS05}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_KAMPILAN_LA]
+[NAME:kampilan:kampilans] A straight, tapered blade, widening to the tip with a protruding spikelet. The pommel is distinct from culture to culture.
+[SIZE:850]
+[SKILL:SWORD]
+[TWO_HANDED:50000]
+[MINIMUM_SIZE:37500]
+[MATERIAL_SIZE:6]
+[CAN_STONE]
+[ATTACK:EDGE:20000:4000:chop:chops:blade:1350]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:EDGE:20:5000:stab:stabs:double-tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:15000:3500:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:50:500:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WS06}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_BACKSWORD_LA]
+[NAME:backsword:backswords] A single-edged blade with a triangular cross-section. Similar to a cutlass, but far less curved.
+[SIZE:800]
+[SKILL:SWORD]
+[TWO_HANDED:37500]
+[MINIMUM_SIZE:32500]
+[MATERIAL_SIZE:5]
+[CAN_STONE]
+[ATTACK:EDGE:18000:3500:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:17500:3250:strike:strikes:spine:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:17500:3250:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:50:500:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WS07}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_NIMCHA_LA]
+[NAME:nimcha:nimchas] A unique type of scimitar. It a hilt with forward-pointing quillions, a "hooked" pommel, and a knuckle-guard.
+[SIZE:825]
+[SKILL:SWORD]
+[TWO_HANDED:37500]
+[MINIMUM_SIZE:32500]
+[MATERIAL_SIZE:5]
+[CAN_STONE]
+[ATTACK:EDGE:17500:3750:slash:slashes:NO_SUB:1275]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:20:4500:stab:stabs:clipped point:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:17000:3500:slap:slaps:flat:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:50:500:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WS08}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_SHOTEL_LA] A very long, very curved sword. Think "sickle-sword" and you've got the idea.
+[NAME:shotel:shotels]
+[SIZE:775]
+[SKILL:SWORD]
+[TWO_HANDED:47500]
+[MINIMUM_SIZE:37500]
+[MATERIAL_SIZE:5]
+[CAN_STONE]
+[ATTACK:EDGE:19000:3000:slash:slashes:curved blade:1275]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:EDGE:15000:3000:slash:slashes:curved spine:1275]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:12500:1000:slap:slaps:flat:1000]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:BLUNT:50:500:strike:strikes:pommel:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	
+=======
+{WS09}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_OKAB_TARMID_LA]
+[NAME:okab-tarmid:okab-tarmids] A ridiculously massive broadsword. Once wielded by a blonde, spiky-haired dwarf, fond of arrogance.
+[SIZE:2250]
+[SKILL:SWORD]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[MATERIAL_SIZE:30]
+[CAN_STONE]
+[ATTACK:EDGE:125000:9999:attack:attacks:blade:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:EDGE:125000:9999:cross-slash:cross-slashes:blade:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:BLUNT:125000:9999:impact:impacts:flat:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+
+=======
+{WS10}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_UNAL_DASTOT_LA]
+[NAME:unal-dastot:unal-dastots] A strange, blunt broadsword, with runic carvings near the hilt and a non-existent guard.
+[SIZE:1500]
+[SKILL:SWORD]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[MATERIAL_SIZE:15]
+[CAN_STONE]
+[ATTACK:EDGE:115000:9999:attack:attacks:hard-edge:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:EDGE:115000:9999:cross-slash:cross-slashes:hard-edge:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:BLUNT:115000:9999:impact:impacts:flat:1500]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]	
+
+=======
+{WS11}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SWORD_LONG_HAFTED_BLADE_LA]
+[NAME:long-hafted blade:long-hafted blades] A larger variant of the Bhuj, with a short-sword affixed to a long, heavy, axe-haft. Originaly forged by a smith named Asin.
+[SIZE:525]
+[SKILL:SWORD]
+[TWO_HANDED:32500]
+[MINIMUM_SIZE:12500]
+[CAN_STONE]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:15000:5000:chop:chops:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:15:10000:stab:stabs:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:1000:550:strike:strikes:haft:2500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WD01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_DAGGER_WAVEBACK_SEAX_LA]
+[NAME:waveback seax:waveback seaxes] The forsaken, bastard offspring of a seax and a kris.
+[SIZE:450]
+[SKILL:DAGGER]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:10000]
+[CAN_STONE]
+[MATERIAL_SIZE:3]
+[ATTACK:EDGE:775:1250:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+[ATTACK:EDGE:800:1275:slash:slashes:spine:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+[ATTACK:EDGE:15:3000:stab:stabs:tip:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK:BLUNT:30:600:strike:strikes:hilt:1000]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	
+=======
+{WD02}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_DAGGER_MAIN_GAUCHE_LA] Designed to be used with the Estoc, Flamberge, or Rapier.
+[NAME:main-gauche:main-gauches] Complete with knuckleguard, notched spine for parrying, and ornate quillions. En-guarde!
+[SIZE:250]
+[SKILL:DAGGER]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:10000]
+[MATERIAL_SIZE:2]
+[CAN_STONE]
+[ATTACK:EDGE:725:1125:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK:EDGE:10:2750:stab:stabs:point:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:10:2750:thrust:thrusts:point:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:30:600:strike:strikes:pommel:1000]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+
+=======
+{WD03}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_DAGGER_STILETTO_LA]
+[NAME:stiletto:stilettos] Small, pointy, and very good for stabbing. Often seen as an off-hand weapon, it is easy to conceal, sometimes even within another weapon.
+[SIZE:175]
+[SKILL:DAGGER]
+[TWO_HANDED:10000]
+[MINIMUM_SIZE:2500]
+[CAN_STONE]
+[MATERIAL_SIZE:2]
+[ATTACK:EDGE:3:3000:stab:stabs:NO_SUB:1225]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:3:3000:thrust:thrusts:NO_SUB:1225]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:30:300:strike:strikes:pommel:1000]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WA01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_AXE_GOOSEWING_GREAT_LA]
+[NAME:goosewing great-axe:goosewing great-axes] This weapon menaces with spikes of norse-influence.
+[SIZE:1325]
+[SKILL:AXE]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[MATERIAL_SIZE:6]
+[ATTACK:EDGE:60000:8000:chop:chops:blade:1350]
+    [ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:60000:8000:slap:slaps:flat:1250]
+    [ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:100:1000:strike:strikes:pommel:1250]
+    [ATTACK_PREPARE_AND_RECOVER:3:3]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WE01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SPEAR_HEWING_LA]
+[NAME:hewing-spear:hewing-spears] My mother told me, someday I would buy, galley with good oars, sail distant shores.
+[SIZE:1000]
+[SKILL:SPEAR]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:50:9000:stab:stabs:tip:2000]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK:EDGE:250:2000:slash:slashes:edge:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+	
+=======
+{WE02}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_SPEAR_BHUJ_LA]
+[NAME:bhuj:bhuji] A short, recurve knife, affixed to an axe-haft. They are often very ornate, with the knob almost invariably designed as a stylized elephants head.
+[SIZE:450]
+[SKILL:SPEAR]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:7500]
+[CAN_STONE]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:500:1350:slash:slashes:blade:1350]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:175:1275:slash:slashes:rear-edge:1275]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:EDGE:10:7500:stab:stabs:tip:1275]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:1000:500:strike:strikes:haft:2275]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WP01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_HALBERD_BEARDED_LA]
+[NAME:halberd:halberds] By Urist, they've done it! A mighty halberd, fit for a dwarf!
+[SIZE:1275]
+[SKILL:PIKE]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[ADJECTIVE:bearded]
+[MATERIAL_SIZE:6]
+[ATTACK:EDGE:22500:3500:hack:hacks:blade:2000]
+	[ATTACK_PREPARE_AND_RECOVER:4:3]
+[ATTACK:EDGE:50:1350:stab:stabs:spike:1350]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:EDGE:30:1250:hook:hooks:thorn:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:20000:2000:slap:slaps:flat:1750]
+	[ATTACK_PREPARE_AND_RECOVER:4:3]
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WH01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_MAUL_DWARVEN_LA]
+[NAME:maul:mauls] A marvelous maul, with which to mash malevolent mooks.
+[SIZE:1600]
+[SKILL:HAMMER]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[ADJECTIVE:dwarven]
+[MATERIAL_SIZE:8]
+[ATTACK:BLUNT:50:3500:hammer:hammers:striking face:4000]
+	[ATTACK_PREPARE_AND_RECOVER:4:5]
+	[ATTACK_FLAG_BAD_MULTIATTACK]
+[ATTACK:BLUNT:75:3500:bash:bashes:head:2000]
+	[ATTACK_PREPARE_AND_RECOVER:4:4]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WM01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_MACE_ORGALS_PAW_LA]
+[NAME:Orgal's Paw:Orgal's Paws] Essentialy a Chinese Zhua in the shape of a bear's paw. Used for rending armor and ripping shields. Hail Orgal Shorodeht!
+[SIZE:1500]
+[SKILL:MACE]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[CAN_STONE]
+[MATERIAL_SIZE:7]
+[ATTACK:BLUNT:1000:6000:rend:rends:paw:3500]
+	[ATTACK_PREPARE_AND_RECOVER:4:4]
+[ATTACK:EDGE:10:6000:tear:tears:claws:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WW01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_WHIP_DRAGON_TAIL_LA]
+[NAME:whip:whips] A serrated whip, emulating the tail of a dragon. Beware it's wrath!
+[SIZE:450]
+[SKILL:WHIP]
+[ADJECTIVE:dragon tail]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:10000]
+[MATERIAL_SIZE:3]
+[ATTACK:BLUNT:5:25:lash:lashes:serrated tips:5250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[ATTACK_FLAG_BAD_MULTIATTACK]
+[ATTACK:EDGE:150:75:bite:bites:serrated edges:3750]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[ATTACK_FLAG_BAD_MULTIATTACK]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WT01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_HALBERD_TRAINING_LA]
+[NAME:training halberd:training halberd]
+[SIZE:635]
+[SKILL:PIKE]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:22500:3500:hack:hacks:blade:2000]
+	[ATTACK_PREPARE_AND_RECOVER:4:3]
+[ATTACK:EDGE:50:1350:poke:pokes:spike:1350]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:EDGE:30:1250:hook:hooks:thorn:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:2]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[ATTACK:BLUNT:20000:2000:slap:slaps:flat:1750]
+	[ATTACK_PREPARE_AND_RECOVER:4:3]
+[TRAINING]
+
+=======
+{WT02}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_MACE_TRAINING_PAW_LA]
+[NAME:training paw:training paws]
+[SIZE:750]
+[SKILL:MACE]
+[TWO_HANDED:77500]
+[MINIMUM_SIZE:52500]
+[MATERIAL_SIZE:4]
+[ATTACK:BLUNT:1000:6000:bat:bats:paw:3500]
+	[ATTACK_PREPARE_AND_RECOVER:4:4]
+[ATTACK:EDGE:10:6000:pull:pulls:claws:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:4]
+[ATTACK:BLUNT:2000:250:strike:strikes:haft:3500]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+[TRAINING]
+
+=======
+{WT03}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_WHIP_TRAINING_LA]
+[NAME:training whip:training whips]
+[SIZE:225]
+[SKILL:WHIP]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:10000]
+[MATERIAL_SIZE:2]
+[ATTACK:BLUNT:5:25:lash:lashes:tip:5250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[ATTACK_FLAG_BAD_MULTIATTACK]
+[ATTACK:EDGE:150:75:bite:bites:cord:3750]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[ATTACK_FLAG_BAD_MULTIATTACK]
+[TRAINING]
+
+=======
+{WT04}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_DAGGER_TRAINING_LA]
+[NAME:training dagger:training daggers]
+[SIZE:250]
+[SKILL:DAGGER]
+[TWO_HANDED:30000]
+[MINIMUM_SIZE:10000]
+[MATERIAL_SIZE:2]
+[ATTACK:EDGE:725:1125:slash:slashes:blade:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK:EDGE:10:2750:poke:pokes:point:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:10:2750:jab:jabs:point:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:BLUNT:30:600:strike:strikes:pommel:1000]
+	[ATTACK_PREPARE_AND_RECOVER:2:2]
+[TRAINING]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======
+{WR01}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_BOW_RECURVE_SIEGE_LA]
+[NAME:recurve siege-bow:recurve siege-bows] About the size of a dwarf, and requiring the strength of one for a full draw.
+[SIZE:600]
+[SKILL:MISC_WEAPON]
+[RANGED:BOW:ARROW]
+[SHOOT_FORCE:2000]
+[SHOOT_MAXVEL:400]
+[TWO_HANDED:0]
+[MINIMUM_SIZE:30000]
+[MATERIAL_SIZE:3]
+[ATTACK:BLUNT:3000:4000:bash:bashes:NO_SUB:1150]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	
+=======
+{WR02}
+=======
+
+	[ITEM_WEAPON:ITEM_WEAPON_CROSSBOW_BAYONETTED_LA]
+[NAME:crossbow:crossbows] A bulkier crossbow, fitted with a bayonet. Now with fifty percent more than twenty pecent more Urists of velocity!
+[ADJECTIVE:bayonetted]
+[SIZE:800]
+[SKILL:SPEAR]
+[RANGED:CROSSBOW:BOLT]
+[SHOOT_FORCE:2250]
+[SHOOT_MAXVEL:500]
+[TWO_HANDED:0]
+[MINIMUM_SIZE:35000]
+[MATERIAL_SIZE:4]
+[ATTACK:EDGE:100:500:stab:stabs:bayonet:1250]
+	[ATTACK_PREPARE_AND_RECOVER:2:3]
+[ATTACK:BLUNT:8000:4250:bash:bashes:stock:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]

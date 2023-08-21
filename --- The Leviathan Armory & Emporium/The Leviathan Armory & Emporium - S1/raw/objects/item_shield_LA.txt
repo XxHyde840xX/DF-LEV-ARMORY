@@ -1,0 +1,124 @@
+item_shield_LA
+
+[OBJECT:ITEM]
+
+=======
+{AS01}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_TARGE_LA] Slightly bigger, and thus, only slightly better than a buckler.
+[NAME:targe:targes]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:15]
+[UPSTEP:1]
+[MATERIAL_SIZE:3]
+
+=======
+{AS02}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_TARGET_LA] Great, just what the goblin marksmen needed; another target. Similar to a buckler but rectangular.
+[NAME:target shield:target shields]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:18]
+[UPSTEP:1]
+[MATERIAL_SIZE:3]
+
+=======
+{AS03}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_ASPIS_LA] A deeply dished, convex round-shield with its grip more towards the edge.
+[NAME:aspis:aspides]
+[ARMORLEVEL:2]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:3]
+
+=======
+{AS04}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_SCUTUM_LA] Get yer mind outta the gutter! A rectangular, rounded shield with a spindle-shaped boss on the front.
+[NAME:scutum:scutamae]
+[ARMORLEVEL:2]
+[BLOCKCHANCE:30]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+
+=======
+{AS05}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_WANKEL_LA] A triangular shield, similar to a kite-shield but smaller, and with rounded edges.
+[NAME:wankel shield:wankel shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:22]
+[UPSTEP:3]
+[MATERIAL_SIZE:3]
+
+=======
+{AS06}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_SQUARE_LA] A square shield to go with your pixels good sir!
+[NAME:square shield:square shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:28]
+[UPSTEP:3]
+[MATERIAL_SIZE:4]
+
+=======
+{AS07}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_HEATER_LA] By Armok! No matter how we try, we can't warm our dwarven toes with it!
+[NAME:heater shield:heater shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:33]
+[UPSTEP:4]
+[MATERIAL_SIZE:5]
+
+=======
+{AS08}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_KITE_LA] You could attach it to a string, but it's far too heavy to fly.
+[NAME:kite shield:kite shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:40]
+[UPSTEP:4]
+[MATERIAL_SIZE:6]
+
+=======
+{AS09}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_COFFIN_LA] As dwarven a shield as was ever forged. Often inscribed with runes and ancestral markings.
+[NAME:coffin shield:coffin shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:45]
+[UPSTEP:5]
+[MATERIAL_SIZE:7]
+
+=======
+{AS10}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_TEARDROP_LA] Don't you cryyyyyy tonight, there's a shield in front of you baby.
+[NAME:teardrop shield:teardrop shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:50]
+[UPSTEP:5]
+[MATERIAL_SIZE:8]
+
+=======
+{AS11}
+=======
+
+	[ITEM_SHIELD:ITEM_SHIELD_TOWER_LA] A massive great-shield. A dwarven squad displaying these in shield-wall formation is truly a sight to behold.
+[NAME:tower shield:tower shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:55]
+[UPSTEP:6]
+[MATERIAL_SIZE:9]

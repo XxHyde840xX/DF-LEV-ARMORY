@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------------------
+NOTES:
+-------------------------------------------------------------------------------------------
+
+Bumblebee Mead Fix + Honey & Wax from Bumblebees.
+
+v47.04 - Courtesy of XxHyde840xX - NEEDS TESTING!
+
+	[ARTIFICIAL_HIVEABLE] - Add to bumblebees.
+
+This addition of the above should enable harvesting of both wax and honey.
+
+[REACTION:MAKE_MEAD]
+	[NAME:make mead]
+	[BUILDING:STILL:CUSTOM_M]
+	[REAGENT:honey:150:LIQUID_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[HAS_MATERIAL_REACTION_PRODUCT:DRINK_MAT]
+	[REAGENT:honey container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:honey]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:barrel/pot:1:NONE:NONE:NONE:NONE]
+		[EMPTY]
+		[FOOD_STORAGE_CONTAINER] barrel or any non-absorbing tool with FOOD_STORAGE
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:5:DRINK:NONE:GET_MATERIAL_FROM_REAGENT:honey:DRINK_MAT]
+		[PRODUCT_TO_CONTAINER:barrel/pot]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:BREWING]
+
+This should work on an existing savefile, since I haven't added new reactions to the entity, just changed one.
+
+------------------------------------------------------------------------------------------------------------------
+
+[REACTION:MAKE_MEAD]
+	[NAME:make mead]
+	[BUILDING:STILL:CUSTOM_M]
+	[REAGENT:honey:150:LIQUID_MISC:NONE:CREATURE_MAT:HONEY_BEE:HONEY]
+		[UNROTTEN]
+	[REAGENT:honey container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:honey]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:barrel/pot:1:NONE:NONE:NONE:NONE]
+		[EMPTY]
+		[FOOD_STORAGE_CONTAINER] barrel or any non-absorbing tool with FOOD_STORAGE
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:5:DRINK:NONE:GET_MATERIAL_FROM_REAGENT:honey:DRINK_MAT]
+		[PRODUCT_TO_CONTAINER:barrel/pot]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:BREWING]
+
+-------------------------------------------------------------------------------------------
+^^^^^^^^^^ - BASELINE - BASELINE - BASELINE - BASELINE - BASELINE - ^^^^^^^^^^
+-------------------------------------------------------------------------------------------

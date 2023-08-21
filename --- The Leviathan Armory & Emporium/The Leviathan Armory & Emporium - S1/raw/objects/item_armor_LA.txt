@@ -1,0 +1,78 @@
+item_armor_LA
+
+[OBJECT:ITEM]
+
+=======
+{AC01}
+=======
+
+	[ITEM_ARMOR:ITEM_ARMOR_GAMBESON_LA]
+[NAME:gambeson:gambesons] A very effective, and often overlooked piece of armor. Really just a thick, padded, cloth or leather coat.
+[ADJECTIVE:thick]
+[MATERIAL_PLACEHOLDER:leather]
+[ARMORLEVEL:1]
+[UBSTEP:MAX]
+[LBSTEP:1]
+[LAYER:UNDER]
+[COVERAGE:110]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:4]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+=======
+{AC02}
+=======
+
+	[ITEM_ARMOR:ITEM_ARMOR_GAMBESON_CLOTH_LA]
+[NAME:gambeson:gambesons] A very effective, and often overlooked piece of armor. Really just a thick, padded, cloth or leather coat.
+[ADJECTIVE:quilted]
+[ARMORLEVEL:0]
+[UBSTEP:MAX]
+[LBSTEP:1]
+[LAYER:UNDER]
+[COVERAGE:110]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:4]
+[SOFT]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+=======
+{AC03}
+=======
+
+	[ITEM_ARMOR:ITEM_ARMOR_BRIGANDINE_LA]
+[NAME:brigandine:brigandines] Brigantine? No. Brigandine! Metal plates, riveted to heavy fabric or leather. Worn as armor, or as an under-layer to full-plate.
+[ARMORLEVEL:2]
+[UBSTEP:MAX]
+[LBSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:110]
+[LAYER_SIZE:20]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:5]
+[METAL]
+[BARRED]
+[SCALED]
+
+=======
+{AC04}
+=======
+
+	[ITEM_ARMOR:ITEM_ARMOR_MAIL_HAUBERK_LA]
+[NAME:mail hauberk:mail hauberks] Designed to be worn under the brigandine, but over the gambeson, the hauberk provides more protection than a common mail shirt.
+[CHAIN_METAL_TEXT]
+[ARMORLEVEL:2]
+[UBSTEP:1]
+[LBSTEP:2]
+[LAYER:OVER]
+[COVERAGE:110]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:6]
+[HARD]
+[METAL]
+[STRUCTURAL_ELASTICITY_CHAIN_ALL]

@@ -1,0 +1,144 @@
+Shipment Two - Potential New Content - Design Document
+
+Dye Colors, Tattoos, and Warpaint
+
+- Used for decoration and potentially buffs/boosts.
+
+Training Reactions
+
+- Used too prevent skill rust and teach new skills without item waste.
+
+Weapon / Armor Improvements
+
+- I'm looking into a custom workshop for this, and for a base to have future content linked to.
+
+More Improvements and Custom Reaction Types
+
+Runesmithing
+
+- Again for decoration and potentially buffs/boosts.
+
+Stone Armor
+
+Custom Font & Tileset
+
+Animal Variants
+
+- Dwarven Molossus [Dog]
+- Dwarven Corso [Dog]
+- Dwarven Malamute [Dog]
+- Dwarven Black-Foot [Cat]
+- Dwarven Fishing-Cat [Cat]
+- Dwarven Lynx [Cat]
+- Dwarven Sawbill [Bird]
+- Deep Owl [Bird]
+- Dwarven Loon [Bird]
+- Harpy Eagle [Bird]
+- Chocobo [Bird]
+- Dwarven Dragon [Reptile] - This ones a bit of a lark as I've seen alot of "I chose the drake because I thought it was a dragon, FML..." posts
+- Raptor [Reptile]
+- Cactus Turtle [Reptlie]
+
+Animal Armoring.
+
+- Not my idea by any means but a very cool concept I'd like to like to the mount script from Shipment One.
+
+New Enemies
+
+- Roc Variants
+- Dragon/Drake/Wyvern/Slyzard Variants
+- Gulper from Fallout 4: Far Harbour DLC
+- FF Summons
+- FF Enemies
+- Human Toothed Bird
+- Coydogs
+- Dire Wolves
+
+Weapons and Armor
+
+- Hood/Coif
+- Mining Axe
+- Military Pick
+- Tool Variants
+- Dwarven Plate Armor Set
+- Ballista / Catapult Ammo
+- Exploding Booze Ballista
+- Magma Trebuchet
+- Repeating Crossbow
+- Arbalest
+- Throwing Axes/Knives/Darts/Spears
+- Throwing Shield
+- Scabbards
+- Swordbreaker
+- Glaive/Billhook
+- Obsidian Ammo [Splinter or fragment on impact.]
+
+Materia from FF7
+
+New Food and Drink
+
+- Baking [Meringue Pie]
+- Tea and Coffee
+- Juice
+- Stew
+- Jerky
+- Bannock
+- Maple Syrup
+- "Hot Toddies"
+
+Ideally, some of these would be integrated into the health/hospital system, and to the tavern system if possible to prevent bartenders from just serving booze until people die.
+
+Furcrafting
+
+Mythril
+
+Meteors, Craters, Meteoric Steel
+
+Damascus, Wootz, Toledo Steelsmithing
+
+Music/Sounds for Soundsense
+
+Language
+
+- Al-Bhed from FF10.
+
+New God
+
+- It's always "Armok this, and Armok that...I like Armok as much as the next dwarf, but what if there was another god in the mix?
+
+New Mechanics
+
+- Limit Break/Last Stand [Trance/Enraged Hybrid]
+- Trepanning [Allows a second strange mood, but has a very high chance of lobotomization or death.]
+
+New Races
+
+- Lizard Men
+
+- Frog Men
+
+- A more "Norse" dwarven race.
+
+- Spectral Invaders
+
+- Orcs
+
+- Dark/Ash/Black Elves [Offspring of Elves/Orcs or Elves/Goblins]
+
+Adventure Mode Reforging/Resizing
+
+Adventure Mode Trapping and Training
+
+Better Adventure Mode Archery
+
+Hand-To-Hand Weaponry
+
+- Chakrams
+
+- Caestus
+
+- Trench Knife
+
+- Spiked Knuckles
+
+- Spiked Boots

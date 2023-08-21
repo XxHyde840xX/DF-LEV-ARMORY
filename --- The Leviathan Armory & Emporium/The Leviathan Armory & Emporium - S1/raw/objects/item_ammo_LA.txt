@@ -1,0 +1,25 @@
+item_ammo_LA
+
+[OBJECT:ITEM]
+	
+=======
+{WO01}
+=======	
+
+	[ITEM_AMMO:ITEM_AMMO_ARROWS_BODKIN_LA]
+[NAME:bodkin arrow:bodkin arrows] A heavier arrow with a hardened, squared tip. Meant for piercing mail and armor.
+[CLASS:ARROW]
+[SIZE:195]
+[ATTACK:EDGE:2:9000:impact:impacts:NO_SUB:1150]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+=======
+{WO02}
+=======
+
+	[ITEM_AMMO:ITEM_AMMO_QUARREL_BROADHEAD_LA]
+[NAME:broadhead quarrel:broadhead quarrels] A heavy, broad-headed quarrel for use with crossbows. A quarrel is a bolt, not a bunch of them. ;)
+[CLASS:BOLT]
+[SIZE:215]
+[ATTACK:EDGE:7:10000:impact:impacts:NO_SUB:1250]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]

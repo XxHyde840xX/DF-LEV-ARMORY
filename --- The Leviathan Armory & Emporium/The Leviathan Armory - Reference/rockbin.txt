@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------------------
+NOTES:
+-------------------------------------------------------------------------------------------
+
+Rock Bins & Rock Beds
+
+v47.04 - Courtesy of XxHyde840xX - NEEDS TESTING
+
+[REACTION:MAKE_ROCK_BIN]
+	[NAME:make rock bin] Finally, something else to do with all that bloody stone laying around!
+	[ADVENTURE_MODE_ENABLED]
+	[BUILDING:CRAFTSMAN:CUSTOM_N]
+	[REAGENT:A:1:BOULDER:NO_SUBTYPE:INORGANIC:NONE]
+		[WORTHLESS_STONE_ONLY]
+	[PRODUCT:100:1:BIN:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
+		[PRODUCT_TOKEN:bin]
+	[SKILL:STONECRAFT]
+	
+[REACTION:MAKE_ROCK_BED]
+	[NAME:make rock bed] A wondrous stone bed, fit for a dwarf. Requires leather for pillow and blankets. Mmmmm...comfy.
+	[ADVENTURE_MODE_ENABLED]
+	[BUILDING:MASON:CUSTOM_SHIFT_D]
+	[REAGENT:A:2:BOULDER:NO_SUBTYPE:INORGANIC:NONE]
+		[WORTHLESS_STONE_ONLY]
+	[REAGENT:B:1:TANNED_HIDE:NO_SUBTYPE:NONE:NONE]
+	[PRODUCT:100:1:BIN:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
+		[PRODUCT_TOKEN:bed]
+	[SKILL:MASONRY]
+
+----------------------------------------------------------------------------------------------------------------------------------
+	
+[REACTION:MAKE_ROCK_BED]
+	[NAME:make a rock bed]
+	[BUILDING:CRAFTSMAN:CUSTOM_SHIFT_B]
+	[REAGENT:A:1:BOULDER:NONE:NONE:NONE]
+	[PRODUCT:100:1:BED:NONE:GET_ITEM_DATA_FROM_REAGENT:reagent:REACTION_PRODUCT_ID]
+	[SKILL:STONE_CRAFT]
+	
+[REACTION:MAKE_ROCK_BIN]
+	[NAME:make a rock bin]
+	[BUILDING:CRAFTSMAN:CUSTOM_B]
+	[REAGENT:A:1:BOULDER:NONE:NONE:NONE]
+	[PRODUCT:100:1:BIN:NONE:GET_ITEM_DATA_FROM_REAGENT:reagent:REACTION_PRODUCT_ID]
+	[SKILL:STONE_CRAFT]
+
+-------------------------------------------------------------------------------------------
+^^^^^^^^^^ - BASELINE - BASELINE - BASELINE - BASELINE - BASELINE - ^^^^^^^^^^
+-------------------------------------------------------------------------------------------

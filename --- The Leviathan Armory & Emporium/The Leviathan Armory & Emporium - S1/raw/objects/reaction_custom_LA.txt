@@ -1,0 +1,60 @@
+reaction_custom_LA
+
+[OBJECT:REACTION]
+
+=======
+{RBIN}
+=======
+
+[REACTION:MAKE_ROCK_BIN_LA]
+	[NAME:Make Rock Bin]
+	[ADVENTURE_MODE_ENABLED]
+	[BUILDING:CRAFTSMAN:CUSTOM_SHIFT_N]
+	[REAGENT:A:1:BOULDER:NO_SUBTYPE:INORGANIC:NONE]
+		[WORTHLESS_STONE_ONLY]
+	[PRODUCT:100:1:BIN:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
+		[PRODUCT_TOKEN:bin]
+	[SKILL:STONECRAFT]
+	[CATEGORY_DESCRIPTION:Finally, something else to do with all that bloody stone laying around!]
+	
+A relatively simple reaction, but fairly useful. Make a rock bin from the Craftsdwarf's Workshop out of some of that stone cluttering up your halls.
+The reaction requires one boulder.  If this looks strange with a graphical tileset installed, please let me know and I will look into a custom tileset
+for the new reactions and items.
+
+=======
+{RBED}
+=======
+
+[REACTION:MAKE_ROCK_BED_LA]
+	[NAME:Make Rock Bed]
+	[ADVENTURE_MODE_ENABLED]
+	[BUILDING:MASON:CUSTOM_SHIFT_B]
+	[REAGENT:A:2:BOULDER:NO_SUBTYPE:INORGANIC:NONE]
+		[WORTHLESS_STONE_ONLY]
+	[REAGENT:B:1:TANNED_HIDE:NO_SUBTYPE:NONE:NONE]
+	[PRODUCT:100:1:BED:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
+		[PRODUCT_TOKEN:bed]
+	[SKILL:MASONRY]
+	[CATEGORY_DESCRIPTION:A wondrous stone bed, fit for a dwarf. Requires leather for pillow and blankets. Mmmmm...comfy.]
+
+Another simple reaction designed to provide another useful way to remove stone. Make a rock bed from two boulders and some leather.
+Again, I'm not sure if this will look weird with a graphical tileset, so please let me know if that is the case.
+
+=======
+{VBRN}
+=======
+
+[REACTION:BURN_VERMIN_REMAINS_LA]
+	[NAME:Burn Vermin Remains]
+	[ADVENTURE_MODE_ENABLED]
+	[BUILDING:WOOD:CUSTOM_SHIFT_V]
+	[REAGENT:A:5:REMAINS:NONE:NONE:NONE]
+	[PRODUCT:25:1:BAR:NONE:POTASH:NONE][PRODUCT_DIMENSION:150]
+	[SKILL:WOOD_BURNER]
+	[AUTOMATIC]
+	[CATEGORY_DESCRIPTION:Automatically dispose of vermin remains, with a small chance to get a potash bar.]
+	
+My personal favorite out of the reactions I've created so far. The reaction is [AUTOMATIC],and enabled from the Wood Furnace. What this does is
+take 5 vermin remains and cremate them, with a 25% chance of producing a Potash bar as a result. Feel free to ignore the reaction if you feel it's
+"cheaty." I figure it may help with FPS decay over time by keeping those corpses to a minimum, provide something else productive for a woodburner to
+do, help keep the fortress "sanitary" from an RP perspective, and provide newer players or those without the means to get a bit of fertilizer.

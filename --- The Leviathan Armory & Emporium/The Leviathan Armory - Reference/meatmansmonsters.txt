@@ -1,0 +1,83 @@
+-Malboro - big plant monster. Slow-moving, tough, highly disease resistant, attacks by biting and with its vines. All Malboro variants have "Bad Breath" - gas spray that inflicts a roulette of random negative ailments.
+ -Malboro - basic version.
+ -Great Malboro - purple version. Spits goo that can slow down a target.
+ -Malboro King - dark blue, orange/red, dark violet/red purple or light green version. Has Purify ability (cures dizziness, nausea, etc., doesnt heal) and Malboro Song (buff used on other Malboros - increases strength and recuperation, slight healing)
+
+-Tonberry - hooded lizard-like humanoid wielding a lantern and butcher's knife. Primarily attacks by slowly slashing and stabbing with its knife - being hit by it severely weakens toughness and recuperation, and makes next attacks hit harder.
+ All variants have a "Stalk" ability that marks a target for death.
+ -Tonberry - most common version. Uses "Karma" - severe stress nuke+weakened attributes and more prone to stress.
+ -Master Tonberry - rare version. Uses "Grudge" - even more severe stress nuke, utterly weakens the target's attributes.
+
+-Ahriman - floating monster with a large eye and fanged mouth, a pair of wings, and a pair of legs.
+ Has several spells:
+ -Doom - after a delayed period, target has their attributes severely weakened, and possibly bleed and/or are knocked unconscious.
+ -Devil Gaze - weakens strength and toughness.
+ -Binding Circle - slows target and reduces agility.
+
+-Iron Titan - iron giant enemy. Large metal machine humanoid with a sword in the right hand. No real gimmicks besides hitting hard and being able to take a lot of punishment. Megabeast.
+
+-Flan - slime monsters with long tongues and grinning mouths. Almost universally have high toughness but extremely low disease resistance. Different versions count as separate creatures, found in different environments.
+ All Flans have an "Ooze" attack - spits out a glob that causes random minor debilitations.
+ -Blue Flan - arctic biome variant. Uses ice magic, tongue lick attack and bite cause a numbing effect. Immune to water/ice elemental magic.
+ -Yellow Jelly - mountain and tropical forest/wetland variant. Uses lightning magic, tongue lick and bite can cause paralysis and blisters. Immune to wind/lightning magic.
+ -Red Marshmallow - desert and tropical savanna variant. Uses fire magic, tongue lick and bite cause burning wounds (bleeding, pain+blisters). Immune to fire elemental magic and heat.
+ -Pink Puff - good grassland/shrubland variant. Immune to fire, air/lightning and water/ice. Instead of using elemental magic, has different abilities. Wears a ribbon - butchering the remains gives a single cloth ribbon.
+  -Lullaby - induces drowsiness and loss of focus.
+  -Simper - causes erratic behavior, reduces propensity to violence and rage, cuts willpower.
+  -Berserk - causes erratic behavior, increases propensity to violence and rage, cuts toughness, focus, kinesthetic/spatial senses.
+ -Black Pudding -  evil grassland/shrubland variant. Immune to demonic/dark/eldritch magic. Uses dark magic, tongue lick and bite can cause necrosis and a fever.
+ -White Mousse - good temperate forest/wetland variant. Immune to holy magic. Uses holy magic, tongue lick and bite can induce pain, blisters and reduce toughness.
+
+-Hecteyes - slime monster with a large amount of eyes all over its body. Uses some tendrils for attacks - may cause blistering and a fever. High disease resistance.
+ Can use some spells.
+ -Confuse - causes erratic behavior, reduces focus, kinesthetic sense and spatial sense.
+ -Slow - reduces agility and speed.
+ -Gaze - reduces strength and toughness.
+
+-Antlion - insect monster with six legs and a pair of large mandibles.
+ -Antlion - basic version. Can use "Sandstorm" to release an undirected "gas" cloud - causes eye pain and reduces focus and spatial/kinesthetic senses.
+ -Antlion Jawbreaker - stronger version. Spits bile to cause bleeding, blisters and to reduce toughness and disease resistance.
+
+-Deathgaze - megabeast. Flying skeletal monster. Has strong, sharp claws - can inflict necrosis and blisters.
+ Casts Doom, also has wind and ice magic.
+
+-Deep Eyes - aquatic enemy - two-part body with a pair of large eyes, some tendrils hang off it.
+ Uses Gaze to induce paralysis and Flash to cause dizziness, reduce focus, kinesthetic sense and spatial sense.
+
+-Death Eye - evil biome enemy. Appears as a floating head with a fanged mouth and single eye - smoke billows out of the mouth. Uses lightning magic and some gaze attacks.
+
+-Floating Skull - evil biome enemy. Large skull with smoke billowing out of its mouth. Lacks any special abilities.
+
+-Dual Heads - large, brutish humanoid monster in savage biomes. Strong punch attacks, high strength.
+
+-Deadheads - undead version of the above, found underground. Has more immunities befitting its undead status.
+
+-Piscodaemon - evil biome dweller, intelligent+playable. Ilithid lookalike.
+ Can strike with tentacles formed by its arms. Has some abilities.
+ -Mind Blast - causes dizziness, erratic behavior, higher violence+rage propensity, lesser focus, kinesthetic sense and spatial sense.
+ -Fire Bolt - explosive heat projectile.
+
+-Bomb - fireball-shaped elemental with arms, a mouth and a pair of eyes. Spits bolts of fire, explodes on death.
+
+-Omega Weapon - large four-legged mech - head has a single visor for an "eye". Shoots missiles and fire bolts, has ray attacks that cause debilitations.
+ Higher skill than most megabeasts.
+
+-Psycho Head - Poltergeist enemy. Screaming skull with the skin of its face exploding outward - has an elongated tongue.
+ Attacks by lashing with its tongue and biting - uses drain to weaken attributes and cause dizziness.
+
+-Little Chariot - small machine. Appears as a knight wielding a lance and a shield - mounted on a pair of wheels, has optics in its head.
+ Physical attacker.
+
+-Swollen Bulb - "Fleshy Blob" Unknown type. Undead. Attacks with hanging lumps, slowly crawls around.
+ Sprays poisonous, fleshy "spores". 
+
+-Corrosive Drooler - "Corrosive" Unknown type. Undead. Normal humanoid attacks, has an open stomach. Spews acid which also slows and reduces agility.
+
+-Acid Worm - "Worm" Unknown type. Undead. Spits digestive acid, spatters acid with bites.
+
+-Hanging Dead - "Skeleton" Unknown type. Undead. Casts Doom.
+
+-Catastroph - megabeast. Big one-eyed ball with tentacles. Casts a Gravity spell to severely reduce strength, speed and agility, uses
+ an Earth Shaker ability to simultaneously launch rock shards and expel a dust wave.
+
+-Cruller - underground creature. Mass of flesh that resembles a mass of inside-out organs. Uses Confusion and spits sticky goo to cause pain and lower speed/agility.
